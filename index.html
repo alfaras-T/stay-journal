@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stay Journal｜ヴィラ・貸別荘・サウナ付き宿 291施設を掲載</title>
+  <meta name="description" content="ヴィラ・貸別荘・旅館・グランピングなど体験価値の高い宿泊施設を深く紹介するメディア。サウナ付き・一棟貸し・ペット可など全国291施設を掲載。">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Stay Journal｜ヴィラ・貸別荘・サウナ付き宿 291施設を掲載">
+  <meta property="og:description" content="ヴィラ・貸別荘・旅館・グランピングなど体験価値の高い宿泊施設を深く紹介するメディア。全国291施設を掲載。">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Noto+Sans+JP:wght@300;400;500&family=Noto+Serif+JP:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebSite","name":"Stay Journal","url":"https://alfaras-t.github.io/stay-journal/"}
+  </script>
+</head>
+<body>
+
+  <!-- ナビゲーション -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a class="logo" href="#" data-page="split">Stay <em>Journal</em></a>
+      <div class="nav-links" id="nav-links">
+        <a href="#" data-page="traveler">施設を探す</a>
+        <a href="#" data-page="exp-list">体験記</a>
+        <a href="#" data-page="owner">オーナー向け</a>
+        <a href="#" data-page="card">旅行お得情報</a>
+        <a href="#" class="nav-cta" data-page="traveler">メルマガ登録</a>
+      </div>
+      <button type="button" class="ham" id="ham" aria-label="メニュー">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- モバイルメニュー -->
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#" data-page="traveler" class="mm-link">施設を探す（291件）</a>
+    <a href="#" data-page="exp-list" class="mm-link">宿泊体験記</a>
+    <a href="#" data-page="owner" class="mm-link">オーナー向け</a>
+    <a href="#" data-page="card" class="mm-link">旅行お得情報</a>
+    <a href="#" data-page="traveler" class="mm-link">メルマガ登録</a>
+  </div>
+
+  <!-- ページコンテナ -->
+  <main id="app">
+
+    <!-- ① 分岐トップ -->
+    <section class="page active" id="page-split">
+      <div class="split-hero">
+        <div class="split-panel split-traveler" data-target="traveler">
+          <img class="split-bg-img" src="https://images.unsplash.com/photo-1510798831971-661eb04b3739?w=900&q=80" alt="旅行者向け" loading="eager">
+          <div class="split-overlay split-ov-green"></div>
+          <div class="split-content">
+            <p class="split-label">For Travelers</p>
+            <h2 class="split-title">特別な宿を<br>探している方</h2>
+            <p class="split-desc">ヴィラ・貸別荘・サウナ付き宿など<br>全国291施設を掲載。体験記も読める。</p>
+            <div class="split-tags">
+              <span>サウナ付き</span><span>ペット可</span><span>温泉</span><span>絶景</span>
+            </div>
+            <div class="split-btn">施設を探す →</div>
+          </div>
+        </div>
+        <div class="split-panel split-owner-panel" data-target="owner">
+          <img class="split-bg-img" src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=900&q=80" alt="オーナー向け" loading="eager">
+          <div class="split-overlay split-ov-dark"></div>
+          <div class="split-content">
+            <p class="split-label">For Owners</p>
+            <h2 class="split-title">施設を運営<br>している方</h2>
+            <p class="split-desc">AI活用・SNS運用・OTA戦略など<br>宿泊施設オーナー向けのノウハウ。</p>
+            <div class="split-tags">
+              <span>AI活用</span><span>SNS運用</span><span>OTA戦略</span><span>集客</span>
+            </div>
+            <div class="split-btn">ノウハウを読む →</div>
+          </div>
+        </div>
+      </div>
+      <div class="split-center-badge">
+        <span class="logo-sm">Stay <em>Journal</em></span>
+      </div>
+    </section>
+
+    <!-- ② 旅行者トップ -->
+    <section class="page" id="page-traveler">
+      <div class="hero">
+        <div class="hero-inner">
+          <div class="hero-text">
+            <p class="eyebrow">Japan's Premium Stay Media</p>
+            <h1 class="hero-h1">特別な宿との<br><em>出会いを、</em><br>深める。</h1>
+            <p class="hero-desc">ヴィラ・貸別荘・旅館・グランピング。体験価値の高い宿泊施設を深く丁寧に紹介するメディアです。</p>
+            <div class="hero-btns">
+              <button type="button" class="btn btn-p" data-page="villas">施設を探す（291件）</button>
+              <button type="button" class="btn btn-o" data-page="exp-list">体験記を読む</button>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <img src="https://images.unsplash.com/photo-1510798831971-661eb04b3739?w=800&q=80" alt="Stay Journal" loading="eager">
+            <div class="hero-badge"><span class="hero-num">291</span><span class="hero-label">掲載施設数</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sec bg-white">
+        <div class="sec-inner">
+          <div class="sec-head"><h2 class="sec-title">カテゴリから<em>探す</em></h2></div>
+          <div class="cat-grid">
+            <div class="cat-card" data-page="villas"><div class="cat-name">エリア別 施設一覧</div><div class="cat-desc">神奈川・静岡・山梨・長野 他 291件</div></div>
+            <div class="cat-card" data-page="exp-list"><div class="cat-name">宿泊体験記</div><div class="cat-desc">編集部が実際に宿泊した体験レポート</div></div>
+            <div class="cat-card" data-page="card"><div class="cat-name">旅行をお得にする</div><div class="cat-desc">クレジットカード・マイル情報</div></div>
+            <div class="cat-card" data-page="villas" data-filter="sauna"><div class="cat-name">サウナ付き特集</div><div class="cat-desc">サウナ付きヴィラを絞り込み検索</div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sec">
+        <div class="sec-inner">
+          <div class="sec-head">
+            <h2 class="sec-title">注目の<em>施設</em></h2>
+            <div class="sec-more-wrap">
+              <a href="#" class="sec-more" data-page="villas">全291件を見る →</a>
+              <a href="#" class="sec-more" data-page="exp-list">体験記一覧 →</a>
+            </div>
+          </div>
+          <div class="card-grid" id="top-villas"></div>
+        </div>
+      </div>
+
+      <div class="sec bg-white">
+        <div class="sec-inner">
+          <div class="sec-head">
+            <h2 class="sec-title">旅行を<em>お得にする</em></h2>
+            <a href="#" class="sec-more" data-page="card">すべて見る →</a>
+          </div>
+          <div class="card-grid">
+            <div class="card" data-page="card">
+              <div class="card-img"><img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=75" alt="クレジットカード" loading="lazy"></div>
+              <div class="card-body"><div class="card-tag">クレジットカード</div><div class="card-title">高級ヴィラ・旅館好きにおすすめのクレジットカード5選【2025年最新】</div></div>
+            </div>
+            <div class="card" data-page="card">
+              <div class="card-img"><img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&q=75" alt="プライオリティパス" loading="lazy"></div>
+              <div class="card-body"><div class="card-tag">ラウンジ・特典</div><div class="card-title">プライオリティパス付きカード比較。旅行好きが選ぶべき1枚はどれか</div></div>
+            </div>
+            <div class="card" data-page="card">
+              <div class="card-img"><img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=600&q=75" alt="マイル" loading="lazy"></div>
+              <div class="card-body"><div class="card-tag">マイル・ポイント</div><div class="card-title">年会費以上にお得になる旅行カード。実際に使って分かった還元率の差</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="nl-sec" id="nl-traveler">
+        <div class="nl-inner">
+          <h2 class="nl-title">Stay Journal メルマガ</h2>
+          <p class="nl-desc">新規開業情報・注目施設・体験記を毎週お届け。12,000名が愛読中。</p>
+          <div class="nl-form"><input class="nl-input" type="email" placeholder="メールアドレスを入力"><button type="button" class="nl-btn">無料登録</button></div>
+        </div>
+      </div>
+      <div id="footer-traveler"></div>
+    </section>
+
+    <!-- ③ 施設一覧 -->
+    <section class="page" id="page-villas">
+      <div class="pg-hdr">
+        <div class="pg-hdr-inner">
+          <div class="bc"><a href="#" data-page="traveler">ホーム</a> › 施設一覧</div>
+          <h1 class="pg-h1">ヴィラ・貸別荘 施設一覧</h1>
+          <p class="pg-sub">全国291施設を掲載。エリア・タグで絞り込めます。</p>
+        </div>
+      </div>
+      <div class="ftabs-wrap">
+        <div class="ftabs" id="pref-tabs">
+          <button type="button" class="ftab active" data-pref="all">すべて</button>
+          <button type="button" class="ftab" data-pref="神奈川">神奈川</button>
+          <button type="button" class="ftab" data-pref="静岡">静岡</button>
+          <button type="button" class="ftab" data-pref="山梨">山梨</button>
+          <button type="button" class="ftab" data-pref="長野">長野</button>
+          <button type="button" class="ftab" data-pref="千葉">千葉</button>
+          <button type="button" class="ftab" data-pref="栃木">栃木</button>
+          <button type="button" class="ftab" data-pref="群馬">群馬</button>
+          <button type="button" class="ftab" data-pref="茨城">茨城</button>
+          <button type="button" class="ftab" data-pref="埼玉">埼玉</button>
+        </div>
+      </div>
+      <div class="list-sec">
+        <div class="list-inner">
+          <div class="search-panel">
+            <div class="search-row">
+              <div class="search-wrap">
+                <span class="search-ico">🔍</span>
+                <input class="search-input" id="villa-search" type="text" placeholder="施設名・エリア・特徴で検索…">
+                <button type="button" class="search-clear" id="search-clear" style="display:none" aria-label="クリア">✕</button>
+              </div>
+              <span class="res-count" id="res-count"></span>
+            </div>
+            <div class="filter-tags">
+              <span class="ftag-label">絞り込み：</span>
+              <button type="button" class="ftag active" data-feat="all">すべて</button>
+              <button type="button" class="ftag" data-feat="sauna">🧖 サウナ</button>
+              <button type="button" class="ftag" data-feat="onsen">♨️ 温泉</button>
+              <button type="button" class="ftag" data-feat="roten">🛁 露天風呂・ジャグジー</button>
+              <button type="button" class="ftag" data-feat="pet">🐾 ペット可</button>
+              <button type="button" class="ftag" data-feat="bbq">🍖 BBQ</button>
+              <button type="button" class="ftag" data-feat="pool">🏊 プール</button>
+              <button type="button" class="ftag" data-feat="large">👥 大人数可</button>
+              <button type="button" class="ftag" data-feat="ocean">🌊 海・オーシャン</button>
+              <button type="button" class="ftag" data-feat="lake">🏞️ 湖畔</button>
+              <button type="button" class="ftag" data-feat="river">🌿 川沿い</button>
+              <button type="button" class="ftag" data-feat="mountain">🏔️ 山・森</button>
+            </div>
+          </div>
+          <div class="villa-grid" id="villa-grid"></div>
+          <div id="load-more-wrap" style="display:none;text-align:center;padding:2rem 0">
+            <button type="button" class="load-more-btn" id="load-more-btn">さらに表示する <span id="load-more-count"></span></button>
+          </div>
+        </div>
+      </div>
+      <div id="footer-villas"></div>
+    </section>
+
+    <!-- ④ 体験記一覧 -->
+    <section class="page" id="page-exp-list">
+      <div class="pg-hdr">
+        <div class="pg-hdr-inner">
+          <div class="bc"><a href="#" data-page="traveler">ホーム</a> › 宿泊体験記</div>
+          <h1 class="pg-h1">宿泊体験記</h1>
+          <p class="pg-sub">Stay Journal編集部が実際に訪問した宿泊施設のリアルなレポートをお届けします。</p>
+        </div>
+      </div>
+      <div class="sec">
+        <div class="sec-inner">
+          <div class="art-list-grid">
+            <div class="alc" data-page="exp-karuizawa">
+              <div class="alc-img"><img src="https://images.unsplash.com/photo-1542718610-a1d656d1884c?w=600&q=75" alt="軽井沢" loading="lazy"></div>
+              <div class="alc-body"><div class="alc-tag">長野 / ヴィラ・サウナ</div><div class="alc-title">軽井沢365 リバーサイドヴィラ八風台｜薪ストーブサウナ×川の伏流水で「ととのう」体験記</div><div class="alc-meta"><span>2025.01.15</span><span>読了8分</span></div></div>
+            </div>
+            <div class="alc" data-page="exp-hakone">
+              <div class="alc-img"><img src="https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=600&q=75" alt="箱根" loading="lazy"></div>
+              <div class="alc-body"><div class="alc-tag">神奈川 / 一棟貸し・温泉</div><div class="alc-title">Noël HAKONE GENSEN｜箱根源泉かけ流しの一棟貸しヴィラ。最大20名で楽しむプライベート温泉体験記</div><div class="alc-meta"><span>2025.01.10</span><span>読了8分</span></div></div>
+            </div>
+            <div class="alc" data-page="exp-atami">
+              <div class="alc-img"><img src="https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=600&q=75" alt="熱海" loading="lazy"></div>
+              <div class="alc-body"><div class="alc-tag">静岡 / 貸別荘・サウナ</div><div class="alc-title">月と太陽（熱海）｜相模湾を見渡すオーシャンビューサウナと絶景BBQの体験記</div><div class="alc-meta"><span>2025.01.05</span><span>読了7分</span></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footer-exp-list"></div>
+    </section>
+
+    <!-- ⑤ 体験記（軽井沢） -->
+    <section class="page" id="page-exp-karuizawa">
+      <div style="background:#fff;border-bottom:1px solid #D4DDD9;padding:12px 1.5rem">
+        <div class="bc"><a href="#" data-page="traveler">ホーム</a> › <a href="#" data-page="exp-list">体験記</a> › 軽井沢</div>
+      </div>
+      <div class="art-layout">
+        <article class="art-main">
+          <div class="art-tag">長野 / ヴィラ・貸別荘 / 編集部体験記</div>
+          <h1 class="art-h1">軽井沢365 リバーサイドヴィラ八風台｜薪ストーブサウナ×川の伏流水で「ととのう」体験記</h1>
+          <div class="art-lead">川沿いのバレルサウナと白樺林の絶景。Stay Journal編集部が実際に1泊2日で滞在し、施設の魅力を徹底レポートします。</div>
+          <div class="art-info"><span>2025年1月15日</span><span>·</span><span>読了約8分</span><span>·</span><span>Stay Journal編集部</span></div>
+          <div class="art-hero"><img src="https://images.unsplash.com/photo-1542718610-a1d656d1884c?w=900&q=80" alt="軽井沢ヴィラ" loading="eager"></div>
+          <div class="art-body">
+            <h2>施設概要</h2>
+            <p>軽井沢365 リバーサイドヴィラ八風台は、長野県北佐久郡軽井沢町に位置する完全一棟貸しのプライベートヴィラです。沢沿いの高台に建ち、5.5mの大窓から白樺林と川の景色を独占できる設計が特徴。東京・新宿から北陸新幹線で約50分のJR軽井沢駅から車で約20分とアクセスも良好です。</p>
+            <h2>バレルサウナ体験</h2>
+            <p>フィンランド製バレルサウナを完備。薪ストーブ式で、体の芯まで温まる本格派。水風呂は施設脇を流れる川の伏流水を引いた天然水で、夏でも15℃前後に保たれています。外気浴スペースには木製のリクライニングチェアが並び、川のせせらぎを聞きながら「ととのう」体験は格別でした。</p>
+            <h2>アクセス・料金情報</h2>
+            <table class="art-table">
+              <tr><th>住所</th><td>長野県北佐久郡軽井沢町発地902-20</td></tr>
+              <tr><th>料金</th><td>¥107,000〜/泊</td></tr>
+              <tr><th>定員</th><td>最大6名</td></tr>
+              <tr><th>ペット</th><td>可</td></tr>
+            </table>
+            <div class="aff-box">
+              <div class="aff-label">施設を予約する</div>
+              <p class="aff-title">じゃらん・一休・公式サイトから予約可能です。週末・連休は早期に満室になるため、早めの予約をおすすめします。</p>
+              <button type="button" class="aff-btn">空き状況を確認する →</button>
+            </div>
+            <h2>編集部総評</h2>
+            <p>「サウナ×自然×愛犬」という三拍子が揃った都心からのアクセス抜群のヴィラです。薪ストーブ式バレルサウナと川の伏流水の水風呂の組み合わせは、都市のサウナ施設では絶対に体験できない本物の「ととのい」を提供してくれます。</p>
+          </div>
+        </article>
+        <aside class="art-sidebar">
+          <div class="sw">
+            <div class="sw-title">施設をエリアで探す</div>
+            <div class="area-chips" id="sidebar-chips-karuizawa"></div>
+          </div>
+          <div class="sw">
+            <div class="sw-title">体験記一覧</div>
+            <ul class="sw-list">
+              <li data-page="exp-karuizawa">✅ 軽井沢365 八風台（長野）</li>
+              <li data-page="exp-hakone">Noël HAKONE GENSEN（神奈川）</li>
+              <li data-page="exp-atami">月と太陽（静岡）</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    
+      <div id="footer-exp-karuizawa"></div>
+    </section>
+
+    <!-- ⑥ 体験記（箱根） -->
+    <section class="page" id="page-exp-hakone">
+      <div style="background:#fff;border-bottom:1px solid #D4DDD9;padding:12px 1.5rem">
+        <div class="bc"><a href="#" data-page="traveler">ホーム</a> › <a href="#" data-page="exp-list">体験記</a> › 箱根</div>
+      </div>
+      <div class="art-layout">
+        <article class="art-main">
+          <div class="art-tag">神奈川 / 一棟貸し・温泉 / 編集部体験記</div>
+          <h1 class="art-h1">Noël HAKONE GENSEN｜箱根源泉かけ流し一棟貸しヴィラ。最大20名で楽しむプライベート温泉体験記</h1>
+          <div class="art-lead">箱根・強羅の大自然に佇む源泉かけ流し一棟貸しヴィラを16名で利用。Stay Journal編集部が実際に宿泊し、施設の魅力を詳細にレポートします。</div>
+          <div class="art-info"><span>2025年1月10日</span><span>·</span><span>読了約8分</span><span>·</span><span>Stay Journal編集部</span></div>
+          <div class="art-hero"><img src="https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=900&q=80" alt="箱根ヴィラ" loading="eager"></div>
+          <div class="art-body">
+            <h2>施設概要</h2>
+            <p>Noël HAKONE GENSENは、神奈川県足柄下郡箱根町二ノ平（強羅エリア）に位置する源泉かけ流しの一棟貸しヴィラです。最大20名が宿泊できる広さを持ちながら、完全プライベートの一棟貸しスタイルを保っており、グループ旅行・家族旅行・記念日利用に最適な施設です。</p>
+            <h2>源泉かけ流し露天風呂</h2>
+            <p>24時間利用可能な源泉かけ流しの露天風呂は、箱根の名湯を誰にも邪魔されずに楽しめるプライベート温泉です。深夜2時に誰もいない露天風呂で星空を眺める体験は、一生の記憶に残ります。</p>
+            <h2>アクセス・料金情報</h2>
+            <table class="art-table">
+              <tr><th>住所</th><td>神奈川県足柄下郡箱根町二ノ平1297（強羅）</td></tr>
+              <tr><th>料金</th><td>¥140,000〜/泊</td></tr>
+              <tr><th>定員</th><td>最大20名</td></tr>
+              <tr><th>ペット</th><td>可（要事前確認）</td></tr>
+            </table>
+            <div class="aff-box">
+              <div class="aff-label">施設を予約する</div>
+              <p class="aff-title">じゃらん・一休・公式サイトから予約可能です。大人数での利用は早期に埋まるため、3ヶ月前からの予約を推奨します。</p>
+              <button type="button" class="aff-btn">空き状況を確認する →</button>
+            </div>
+            <h2>編集部総評</h2>
+            <p>最大20名という収容力は業界でもトップクラス。グループ旅行の幹事役に最もおすすめしたいヴィラです。16名で割ると1人あたり約9,000円。箱根の旅館と比較しても圧倒的なコストパフォーマンスです。</p>
+          </div>
+        </article>
+        <aside class="art-sidebar">
+          <div class="sw">
+            <div class="sw-title">施設をエリアで探す</div>
+            <div class="area-chips" id="sidebar-chips-hakone"></div>
+          </div>
+          <div class="sw">
+            <div class="sw-title">体験記一覧</div>
+            <ul class="sw-list">
+              <li data-page="exp-karuizawa">軽井沢365 八風台（長野）</li>
+              <li data-page="exp-hakone">✅ Noël HAKONE GENSEN（神奈川）</li>
+              <li data-page="exp-atami">月と太陽（静岡）</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    
+      <div id="footer-exp-hakone"></div>
+    </section>
+
+    <!-- ⑦ 体験記（熱海） -->
+    <section class="page" id="page-exp-atami">
+      <div style="background:#fff;border-bottom:1px solid #D4DDD9;padding:12px 1.5rem">
+        <div class="bc"><a href="#" data-page="traveler">ホーム</a> › <a href="#" data-page="exp-list">体験記</a> › 熱海</div>
+      </div>
+      <div class="art-layout">
+        <article class="art-main">
+          <div class="art-tag">静岡 / 貸別荘・サウナ / 編集部体験記</div>
+          <h1 class="art-h1">月と太陽（熱海）｜相模湾を見渡すオーシャンビューサウナと絶景BBQの体験記</h1>
+          <div class="art-lead">熱海の高台から相模湾を一望するプライベート貸別荘。Stay Journal編集部が実際に滞在し、オーシャンビューサウナ・温泉・BBQの体験を詳細レポートします。</div>
+          <div class="art-info"><span>2025年1月5日</span><span>·</span><span>読了約7分</span><span>·</span><span>Stay Journal編集部</span></div>
+          <div class="art-hero"><img src="https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=900&q=80" alt="熱海ヴィラ" loading="eager"></div>
+          <div class="art-body">
+            <h2>施設概要</h2>
+            <p>月と太陽は、静岡県熱海市上多賀に位置するプライベート貸別荘です。熱海駅からタクシーで約15分、小高い丘の上に建つ施設からは相模湾を一望できます。全4タイプの棟から構成されており、全棟に温泉・サウナ・BBQテラスが完備されています。</p>
+            <h2>オーシャンビューサウナ体験</h2>
+            <p>サウナ室の大きな窓の向こうには相模湾が広がり、汗をかきながら海を眺めるという、国内でも稀有な体験ができます。夕暮れ時のサウナが特におすすめです。水平線に沈む夕日をサウナ室から眺めながら「ととのう」体験は、一生の記憶に残ります。</p>
+            <h2>アクセス・料金情報</h2>
+            <table class="art-table">
+              <tr><th>住所</th><td>静岡県熱海市上多賀1066-1</td></tr>
+              <tr><th>料金</th><td>¥70,000〜/泊</td></tr>
+              <tr><th>棟タイプ</th><td>4タイプ（2〜8名対応）</td></tr>
+              <tr><th>温泉・サウナ</th><td>全棟完備</td></tr>
+            </table>
+            <div class="aff-box">
+              <div class="aff-label">施設を予約する</div>
+              <p class="aff-title">じゃらん・公式サイトから予約可能。土日祝は特に人気が高く、1〜2ヶ月前には満室になることも。</p>
+              <button type="button" class="aff-btn">空き状況を確認する →</button>
+            </div>
+            <h2>編集部総評</h2>
+            <p>「オーシャンビュー×サウナ×温泉×BBQ」という最強の組み合わせが一棟で叶う、熱海屈指のプライベートリゾートです。東京から新幹線で約35分というアクセスの良さも魅力です。</p>
+          </div>
+        </article>
+        <aside class="art-sidebar">
+          <div class="sw">
+            <div class="sw-title">施設をエリアで探す</div>
+            <div class="area-chips" id="sidebar-chips-atami"></div>
+          </div>
+          <div class="sw">
+            <div class="sw-title">体験記一覧</div>
+            <ul class="sw-list">
+              <li data-page="exp-karuizawa">軽井沢365 八風台（長野）</li>
+              <li data-page="exp-hakone">Noël HAKONE GENSEN（神奈川）</li>
+              <li data-page="exp-atami">✅ 月と太陽（静岡）</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    
+      <div id="footer-exp-atami"></div>
+    </section>
+
+    <!-- ⑧ オーナートップ -->
+    <section class="page" id="page-owner">
+      <div class="hero">
+        <div class="hero-inner">
+          <div class="hero-text">
+            <p class="eyebrow">For Stay Business Owners</p>
+            <h1 class="hero-h1">宿泊施設の<br><em>運営を、</em><br>もっと賢く。</h1>
+            <p class="hero-desc">AI活用・SNS運用・OTA戦略・集客ノウハウ。小規模宿泊施設オーナー向けの実践的な情報をお届けします。</p>
+            <div class="hero-btns">
+              <button type="button" class="btn btn-p" data-page="owner-list">ノウハウ記事を読む</button>
+              <button type="button" class="btn btn-o" data-page="owner-art">AIツール10選を見る</button>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=800&q=80" alt="オーナー向け" loading="eager">
+            <div class="hero-badge"><span class="hero-num">45+</span><span class="hero-label">ノウハウ記事</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="sec bg-white">
+        <div class="sec-inner">
+          <div class="sec-head"><h2 class="sec-title">カテゴリから<em>読む</em></h2></div>
+          <div class="cat-grid">
+            <div class="cat-card" data-page="owner-list"><div class="cat-name">AI活用</div><div class="cat-desc">ChatGPT・Claude・Notion AI</div></div>
+            <div class="cat-card" data-page="owner-list"><div class="cat-name">SNS運用</div><div class="cat-desc">Instagram・動画・デザイン</div></div>
+            <div class="cat-card" data-page="owner-list"><div class="cat-name">OTA・集客</div><div class="cat-desc">じゃらん・楽天・一休の使い分け</div></div>
+            <div class="cat-card" data-page="owner-list"><div class="cat-name">予約管理</div><div class="cat-desc">業務効率化・自動化</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="sec">
+        <div class="sec-inner">
+          <div class="sec-head">
+            <h2 class="sec-title">注目の<em>記事</em></h2>
+            <a href="#" class="sec-more" data-page="owner-list">すべて見る →</a>
+          </div>
+          <div class="card-grid">
+            <div class="card" data-page="owner-art">
+              <div class="card-img"><img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=75" alt="AIツール" loading="lazy"></div>
+              <div class="card-body"><div class="card-tag">AI活用</div><div class="card-title">小規模宿にこそ使ってほしい業務効率化AIツール10選【2025年版】</div></div>
+            </div>
+            <div class="card" data-page="owner-art">
+              <div class="card-img"><img src="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=600&q=75" alt="口コミ返信" loading="lazy"></div>
+              <div class="card-body"><div class="card-tag">ChatGPT活用</div><div class="card-title">ChatGPTで口コミ返信を半自動化する方法。返信率と評価が上がった実例</div></div>
+            </div>
+            <div class="card" data-page="owner-art">
+              <div class="card-img"><img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&q=75" alt="Instagram" loading="lazy"></div>
+              <div class="card-body"><div class="card-tag">SNS運用</div><div class="card-title">AIでInstagram運用を効率化。宿泊施設向け投稿テンプレートと運用術</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cta-sec">
+        <div class="cta-inner">
+          <p class="cta-label">AI導入支援</p>
+          <h2 class="cta-title">AIの導入でお困りですか？</h2>
+          <p class="cta-desc">ChatGPTや自動化ツールの導入支援を行っています。まずはお気軽にご相談ください。</p>
+          <button type="button" class="btn btn-accent">無料相談を申し込む</button>
+        </div>
+      </div>
+      <div id="footer-owner"></div>
+    </section>
+
+    <!-- ⑨ オーナー記事一覧 -->
+    <section class="page" id="page-owner-list">
+      <div class="pg-hdr">
+        <div class="pg-hdr-inner">
+          <div class="bc"><a href="#" data-page="owner">オーナー向け</a> › 記事一覧</div>
+          <h1 class="pg-h1">宿泊施設運営 記事一覧</h1>
+          <p class="pg-sub">AI活用・SNS運用・OTA・集客など、宿泊施設オーナー向けのノウハウ記事をまとめています。</p>
+        </div>
+      </div>
+      <div class="sec">
+        <div class="sec-inner">
+          <div class="art-list-grid">
+            <div class="alc" data-page="owner-art"><div class="alc-img"><img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=75" alt="AIツール" loading="lazy"></div><div class="alc-body"><div class="alc-tag">AI活用</div><div class="alc-title">小規模宿にこそ使ってほしい業務効率化AIツール10選【2025年版】</div><div class="alc-meta"><span>2025.01.10</span><span>読了8分</span></div></div></div>
+            <div class="alc" data-page="owner-art"><div class="alc-img"><img src="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=600&q=75" alt="口コミ" loading="lazy"></div><div class="alc-body"><div class="alc-tag">ChatGPT活用</div><div class="alc-title">ChatGPTで口コミ返信を半自動化する方法。返信率と評価が上がった実例</div><div class="alc-meta"><span>2025.01.05</span><span>読了7分</span></div></div></div>
+            <div class="alc" data-page="owner-art"><div class="alc-img"><img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&q=75" alt="Instagram" loading="lazy"></div><div class="alc-body"><div class="alc-tag">SNS運用</div><div class="alc-title">AIでInstagram運用を効率化。宿泊施設向け投稿テンプレートと運用術</div><div class="alc-meta"><span>2024.12.20</span><span>読了6分</span></div></div></div>
+            <div class="alc" data-page="owner-art"><div class="alc-img"><img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=75" alt="OTA" loading="lazy"></div><div class="alc-body"><div class="alc-tag">OTA活用</div><div class="alc-title">じゃらん・楽天・一休を使い分ける戦略。OTA別の特性と集客最大化のコツ</div><div class="alc-meta"><span>2024.12.10</span><span>読了9分</span></div></div></div>
+            <div class="alc" data-page="owner-art"><div class="alc-img"><img src="https://images.unsplash.com/photo-1618477388954-7852f32655ec?w=600&q=75" alt="Notion" loading="lazy"></div><div class="alc-body"><div class="alc-tag">業務効率化</div><div class="alc-title">Notion AIで予約管理・スタッフマニュアルを一元化する方法</div><div class="alc-meta"><span>2024.11.28</span><span>読了7分</span></div></div></div>
+            <div class="alc" data-page="owner-art"><div class="alc-img"><img src="https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=600&q=75" alt="収益化" loading="lazy"></div><div class="alc-body"><div class="alc-tag">収益化</div><div class="alc-title">貸別荘・ヴィラの収益を最大化するダイナミックプライシング入門</div><div class="alc-meta"><span>2024.10.05</span><span>読了10分</span></div></div></div>
+          </div>
+        </div>
+      </div>
+    
+      <div id="footer-owner-list"></div>
+    </section>
+
+    <!-- ⑩ オーナー記事詳細 -->
+    <section class="page" id="page-owner-art">
+      <div style="background:#fff;border-bottom:1px solid #D4DDD9;padding:12px 1.5rem">
+        <div class="bc"><a href="#" data-page="owner">オーナー向け</a> › <a href="#" data-page="owner-list">記事一覧</a> › AI活用</div>
+      </div>
+      <div class="art-layout">
+        <article class="art-main">
+          <div class="art-tag">宿泊施設運営 / AI活用</div>
+          <h1 class="art-h1">小規模宿にこそ使ってほしい。業務効率化AIツール10選【2025年版】</h1>
+          <div class="art-lead">人手不足・業務過多に悩む小規模宿泊施設のオーナーに向けて、実際に使えるAIツールを厳選。ChatGPT・Claude・Notion AIなど、月数千円から始められるツールばかりです。</div>
+          <div class="art-info"><span>2025年1月10日</span><span>·</span><span>読了約8分</span><span>·</span><span>Stay Journal編集部</span></div>
+          <div class="art-hero"><img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=900&q=80" alt="AIツール" loading="eager"></div>
+          <div class="art-body">
+            <h2>なぜ小規模宿こそAIが有効なのか</h2>
+            <p>大手ホテルチェーンとは異なり、小規模宿泊施設は1人のオーナーや少人数のスタッフが、予約対応・清掃・SNS運用・口コミ返信・経理まで幅広い業務をこなす必要があります。AIツールを上手く使えば、これらの反復作業を大幅に自動化でき、オーナーが本来時間を使うべき「お客様との体験づくり」に集中できるようになります。</p>
+            <h2>おすすめAIツール10選</h2>
+            <div class="tool-card"><div class="tool-name">① ChatGPT（OpenAI）</div><div class="tool-desc">口コミ返信文・SNS投稿・メール文面・FAQ作成など、テキスト生成全般に活用できる万能ツール。</div><div class="tool-price">無料プランあり / Plus: 月$20（約3,000円）</div></div>
+            <div class="tool-card"><div class="tool-name">② Claude（Anthropic）</div><div class="tool-desc">長文の読み込み・要約・分析が得意。予約規約の草案作成や競合施設のリサーチに威力を発揮します。</div><div class="tool-price">無料プランあり / Pro: 月$20（約3,000円）</div></div>
+            <div class="tool-card"><div class="tool-name">③ Notion AI</div><div class="tool-desc">予約管理・スタッフマニュアル・清掃チェックリストを一元化しながら、AIが文書の下書き・翻訳・要約を自動化。</div><div class="tool-price">Notion: 無料〜 / AI追加: 月$10</div></div>
+            <div class="tool-card"><div class="tool-name">④ Canva AI（Magic Studio）</div><div class="tool-desc">SNS投稿画像・施設パンフレット・ウェルカムカードをデザインスキル不要で作成。</div><div class="tool-price">無料プランあり / Pro: 月1,800円</div></div>
+            <div class="tool-card"><div class="tool-name">⑤ Dify</div><div class="tool-desc">ノーコードでAIチャットボットを構築。施設のFAQを学習させ24時間自動で問い合わせ対応。</div><div class="tool-price">無料プランあり</div></div>
+            <h2>導入ロードマップ</h2>
+            <table class="art-table">
+              <tr><th>STEP 1</th><td>ChatGPT / Claude</td><td>口コミ返信・SNS文章の時間を半減</td></tr>
+              <tr><th>STEP 2</th><td>Canva AI + Notion AI</td><td>デザイン・マニュアル管理を一元化</td></tr>
+              <tr><th>STEP 3</th><td>Dify + Zapier</td><td>問い合わせ対応の自動化フロー構築</td></tr>
+            </table>
+            <div class="aff-box">
+              <div class="aff-label">AI導入支援</div>
+              <p class="aff-title">Stay Journalでは、AIを活用した宿泊施設運営の無料相談を受け付けています。</p>
+              <button type="button" class="aff-btn">無料相談を申し込む →</button>
+            </div>
+          </div>
+        </article>
+        <aside class="art-sidebar">
+          <div class="sw">
+            <div class="sw-title">オーナー向け記事</div>
+            <ul class="sw-list">
+              <li data-page="owner-art">✅ AIツール10選</li>
+              <li>ChatGPTで口コミ返信を自動化</li>
+              <li>AIでInstagram運用する方法</li>
+              <li>OTAとは？初心者向け完全解説</li>
+            </ul>
+          </div>
+          <div class="sw sw-nl">
+            <div class="sw-title">メルマガ登録</div>
+            <p class="sw-nl-desc">オーナー向けノウハウを毎週お届け。</p>
+            <input class="sw-nl-input" type="email" placeholder="メールアドレス">
+            <button type="button" class="sw-nl-btn">無料で登録する</button>
+          </div>
+        </aside>
+      </div>
+    
+      <div id="footer-owner-art"></div>
+    </section>
+
+    <!-- ⑪ カード記事一覧 -->
+    <section class="page" id="page-card">
+      <div class="pg-hdr">
+        <div class="pg-hdr-inner">
+          <div class="bc"><a href="#" data-page="traveler">ホーム</a> › 旅行をお得にする</div>
+          <h1 class="pg-h1">旅行をお得にする 記事一覧</h1>
+          <p class="pg-sub">クレジットカード・マイル・ポイントを活用して高級宿をお得に楽しむ情報をまとめています。</p>
+        </div>
+      </div>
+      <div class="sec">
+        <div class="sec-inner">
+          <div class="art-list-grid">
+            <div class="alc" data-page="card-art"><div class="alc-img"><img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=75" alt="クレカ" loading="lazy"></div><div class="alc-body"><div class="alc-tag">クレジットカード</div><div class="alc-title">高級ヴィラ・旅館好きにおすすめのクレジットカード5選【2025年最新】</div><div class="alc-meta"><span>2025.01.12</span><span>読了10分</span></div></div></div>
+            <div class="alc" data-page="card-art"><div class="alc-img"><img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&q=75" alt="ラウンジ" loading="lazy"></div><div class="alc-body"><div class="alc-tag">ラウンジ</div><div class="alc-title">プライオリティパス付きカード比較。旅行好きが選ぶべき1枚はどれか</div><div class="alc-meta"><span>2025.01.08</span><span>読了8分</span></div></div></div>
+            <div class="alc" data-page="card-art"><div class="alc-img"><img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=600&q=75" alt="マイル" loading="lazy"></div><div class="alc-body"><div class="alc-tag">マイル</div><div class="alc-title">年会費以上にお得になる旅行カード。実際に使って分かった還元率の差</div><div class="alc-meta"><span>2024.12.28</span><span>読了9分</span></div></div></div>
+          </div>
+        </div>
+      </div>
+      <div id="footer-card"></div>
+</section>
+
+    <!-- ⑫ カード記事詳細 -->
+    <section class="page" id="page-card-art">
+      <div style="background:#fff;border-bottom:1px solid #D4DDD9;padding:12px 1.5rem">
+        <div class="bc"><a href="#" data-page="traveler">ホーム</a> › <a href="#" data-page="card">旅行お得情報</a> › クレジットカード</div>
+      </div>
+      <div class="art-layout">
+        <article class="art-main">
+          <div class="art-tag">旅行をお得にする / クレジットカード ※本記事はアフィリエイト広告を含みます</div>
+          <h1 class="art-h1">高級ヴィラ・旅館好きにおすすめのクレジットカード5選【2025年最新】</h1>
+          <div class="art-lead">1泊数万円の高級宿を頻繁に利用するなら、ポイント還元・ホテル優待・プライオリティパスが充実したカードを持つことで、実質的なコストを大幅に下げられます。</div>
+          <div class="art-info"><span>2025年1月12日</span><span>·</span><span>読了約10分</span><span>·</span><span>Stay Journal編集部</span></div>
+          <div class="art-hero"><img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=900&q=80" alt="クレジットカード" loading="eager"></div>
+          <div class="art-body">
+            <h2>高級宿に泊まるなら旅行特化カードを持つべき理由</h2>
+            <p>年間10〜30泊の旅行を楽しむ方にとって、クレジットカード選びは宿選びと同じくらい重要です。年100万円の宿泊費をポイント還元率1.5%のカードで支払えば、年間15,000円相当が戻ってきます。</p>
+            <h2>おすすめカード5選</h2>
+            <table class="art-table">
+              <tr><th>カード名</th><th>年会費</th><th>主な特典</th></tr>
+              <tr><td>アメックス・プラチナ</td><td>165,000円</td><td>Fine Hotels & Resorts・プライオリティパス・コンシェルジュ</td></tr>
+              <tr><td>JCBゴールド ザ・プレミア</td><td>11,000円〜</td><td>プライオリティパス・空港ラウンジ・旅行保険</td></tr>
+              <tr><td>三井住友プラチナプリファード</td><td>33,000円</td><td>国内外ホテル優待・空港ラウンジ</td></tr>
+              <tr><td>楽天プレミアムカード</td><td>11,000円</td><td>プライオリティパス・楽天トラベルSPU</td></tr>
+              <tr><td>エポスプラチナカード</td><td>20,000円</td><td>プライオリティパス・選べるポイントアップ</td></tr>
+            </table>
+            <div class="aff-box">
+              <div class="aff-label">高級宿をもっとお得に</div>
+              <p class="aff-title">アメックス・プラチナ 公式申込ページ。新規入会キャンペーン実施中。</p>
+              <button type="button" class="aff-btn">申込・詳細を確認する →</button>
+            </div>
+          </div>
+        </article>
+        <aside class="art-sidebar">
+          <div class="sw">
+            <div class="sw-title">施設をエリアで探す</div>
+            <div class="area-chips" id="sidebar-chips-card"></div>
+          </div>
+          <div class="sw">
+            <div class="sw-title">旅行お得情報</div>
+            <ul class="sw-list">
+              <li data-page="card-art">✅ おすすめカード5選</li>
+              <li>プライオリティパス付きカード比較</li>
+              <li>マイルを貯めるなら何のカード？</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    
+      <div id="footer-card-art"></div>
+    </section>
+
+  </main>
+
+  <!-- 施設ポップアップ -->
+  <div class="popup-overlay" id="popup" role="dialog" aria-modal="true">
+    <div class="popup-box">
+      <button type="button" class="popup-close" id="popup-close" aria-label="閉じる">✕</button>
+      <img class="popup-img" id="popup-img" src="" alt="">
+      <div class="popup-body">
+        <div class="popup-pref" id="popup-pref"></div>
+        <div class="popup-name" id="popup-name"></div>
+        <div class="popup-addr" id="popup-addr"></div>
+        <div class="popup-price" id="popup-price"></div>
+        <div class="popup-tags" id="popup-tags"></div>
+        <div class="popup-feat" id="popup-feat"></div>
+        <div class="popup-actions">
+          <button type="button" class="popup-btn-p" id="popup-jalan">じゃらんで予約する →</button>
+          <button type="button" class="popup-btn-o" id="popup-ikyu">一休.comで予約する →</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 共通フッター（テンプレート） -->
+  <template id="footer-tpl">
+    <footer class="footer">
+      <div class="footer-inner">
+        <div class="footer-grid">
+          <div>
+            <div class="footer-logo">Stay <em>Journal</em></div>
+            <p class="footer-desc">宿泊施設の発見と理解を深めるメディア。ヴィラ・貸別荘・旅館・グランピングを中心に体験価値の高い宿を紹介します。</p>
+          </div>
+          <div>
+            <div class="footer-head">施設を探す</div>
+            <ul class="footer-ul">
+              <li><a href="#" data-page="villas">施設一覧（291件）</a></li>
+              <li><a href="#" data-page="villas" data-pref="神奈川">神奈川・箱根</a></li>
+              <li><a href="#" data-page="villas" data-pref="静岡">静岡・熱海</a></li>
+              <li><a href="#" data-page="villas" data-pref="長野">長野・軽井沢</a></li>
+            </ul>
+          </div>
+          <div>
+            <div class="footer-head">体験記</div>
+            <ul class="footer-ul">
+              <li><a href="#" data-page="exp-list">体験記一覧</a></li>
+              <li><a href="#" data-page="exp-karuizawa">軽井沢</a></li>
+              <li><a href="#" data-page="exp-hakone">箱根</a></li>
+              <li><a href="#" data-page="exp-atami">熱海</a></li>
+            </ul>
+          </div>
+          <div>
+            <div class="footer-head">その他</div>
+            <ul class="footer-ul">
+              <li><a href="#" data-page="owner">オーナー向け</a></li>
+              <li><a href="#" data-page="card">旅行お得情報</a></li>
+              <li><a href="#">メルマガ登録</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>© 2025 Stay Journal. All rights reserved.</span>
+          <span>プライバシーポリシー｜免責事項</span>
+        </div>
+      </div>
+    </footer>
+  </template>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
